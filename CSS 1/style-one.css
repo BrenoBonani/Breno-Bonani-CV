@@ -11,7 +11,7 @@ hr {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1400px;
+    grid-template-columns: 1500px;
 }
 
 .breno-img {
@@ -26,7 +26,7 @@ hr {
 
     .breno-img {
         position: relative;
-        left: 33px;
+        left: 36px;
     }
 
 }
@@ -39,7 +39,7 @@ hr {
 
     .breno-img {
         position: relative;
-        left: 33px;
+        left: 30px;
     }
 
 }
