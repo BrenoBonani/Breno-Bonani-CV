@@ -1,5 +1,4 @@
-
-body{
+body {
     background-color: #FEFBE7;
 }
 
@@ -8,8 +7,41 @@ hr {
     background-color: #006E7F;
     border-style: none;
     height: 4px;
-  
-   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1400px;
+}
+
+.breno-img {
+    float: left;
+}
+
+@media (max-width: 1440px) {
+    .grid-container {
+        display: inline;
+        text-align: left;
+    }
+
+    .breno-img {
+        position: relative;
+        left: 37px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .grid-container {
+        display: inline;
+        text-align: center;
+    }
+
+    .breno-img {
+        position: relative;
+        left: 37px;
+    }
+
 }
 
 
