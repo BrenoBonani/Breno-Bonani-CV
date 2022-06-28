@@ -2,6 +2,10 @@ body {
     background-color: #FEFBE7;
 }
 
+h1 {
+    font-size: 2.2rem;
+}
+
 hr {
     border-color: #006E7F;
     background-color: #006E7F;
@@ -26,7 +30,7 @@ hr {
 
     .breno-img {
         position: relative;
-        left: 30px;
+        left: 33px;
     }
 
 }
@@ -39,9 +43,12 @@ hr {
 
     .breno-img {
         position: relative;
-        left: 30px;
+        left: -5px;
+    }
+
+    .bio {
+        text-align: justify;
     }
 
 }
-
 
